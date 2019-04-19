@@ -31,7 +31,6 @@ const employeeTwo = {
   name: "Kennan",
   email: "kdiben1@tinypic.com",
   gender: "M"
-  return "Hello, My name is + " this.name" ";
 }
 
 const employeeThree = {
@@ -83,11 +82,7 @@ console.log(employeeFive.gender);
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
-function multiply(num1,num2){
-  return num1 * num2;
-}
 
-console.log(antonietta.multiply(10,2));
 
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
 
