@@ -4,22 +4,31 @@
 // console.log("Function was invoked!");
 // };
 // myFunction();
+let myFunction = () =>
+console.log("Function was invoked!");
+
+myFunction();
 
 // let anotherFunction = function (param) {
 //   return param;
 // };
 // anotherFunction("Example");
+let anotherFunction = (param) => param;
+anotherFunction("Example");
 
 // let add = function (param1, param2) {
 //   return param1 + param2;
 // };
 // add(1,2);
+let add = (param1, param2) => param1 + param2;
+add(1,2);
 
 // let subtract = function (param1, param2) {
 //   return param1 - param2;
 // };
 // subtract(1,2);
-
+let subtract = (param1, param2) => param1 - param2;
+subtract(1,2);
 
 // Stretch
 
@@ -28,3 +37,10 @@
 //   return num * 3;
 // });
 // console.log(triple);
+
+let array2 = [];
+array1 = [5, 10, 15, 20];
+const divideByFive = array1.map(function (num) {
+  return num / 5;
+}); 
+console.log(divideByFive);
