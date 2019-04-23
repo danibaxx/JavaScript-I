@@ -77,14 +77,15 @@ console.log(employeeFive.gender);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
-employeeTwo.speak = () => "Hello, my name is Kennan!";
+let speak = () => "Hello, my name is Kennan!";
+employeeTwo.speak = speak;
+// employeeTwo.movie = "Batman"; setting key value pair
 console.log(employeeTwo.speak());
 
-
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
-employeeFive.multiplyNums = (a,b) => a * b;
-console.log(employeeFive.multiplyNums(3,4));
-
+let multiply = (x, y) => x * y;
+employeeFive.multi = multiply;
+console.log(employeeFive.multi(4, 4));
 
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
 

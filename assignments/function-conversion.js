@@ -37,3 +37,10 @@ subtract(1,2);
 //   return num * 3;
 // });
 // console.log(triple);
+
+let array2 = [];
+array1 = [5, 10, 15, 20];
+const divideByFive = array1.map(function (num) {
+  return num / 5;
+}); 
+console.log(divideByFive);
